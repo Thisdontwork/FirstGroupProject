@@ -1,1 +1,1 @@
-# FirstGroupProject  \owo/
+# FirstGroupProject  {owo}
