@@ -8,14 +8,11 @@ public class mainmenu : MonoBehaviour
     public void MainMenu()
     {
      
-        SceneManager.LoadScene("game");
+        SceneManager.LoadScene("level 1");
     }
     public void Quitgame()
     {
         Application.Quit();
     }
-    public void startsubproject()
-    {
-        SceneManager.LoadScene("color");
-    }
+   
 }
