@@ -17,7 +17,7 @@ public class playerhealth : MonoBehaviour
         healthSlider.value = Health;
         
     }
-    void OnTriggerEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy")
         {

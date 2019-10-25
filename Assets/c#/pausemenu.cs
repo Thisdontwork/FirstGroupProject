@@ -48,4 +48,8 @@ public class pausemenu : MonoBehaviour
     {
         Application.Quit();
     }
+    public void HowToPlay()
+    {
+        SceneManager.LoadScene("How To Play");
+    }
 }
