@@ -1,7 +1,70 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 387bb33e396745a428ec08c7775eefa5
 TextureImporter:
   internalIDToNameTable: []
+=======
+guid: 15ab97a1a613d6d4582b6ae9e8a55ecb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 883034808091220091
+    second: Medow tilemap_0
+  - first:
+      213: 5944024208681917654
+    second: Medow tilemap_1
+  - first:
+      213: 5272037272240135236
+    second: Medow tilemap_2
+  - first:
+      213: -8642980972245235219
+    second: Medow tilemap_3
+  - first:
+      213: -3588341229487618556
+    second: Medow tilemap_4
+  - first:
+      213: 7703456566998980189
+    second: Medow tilemap_5
+  - first:
+      213: -3564317018709352101
+    second: Medow tilemap_6
+  - first:
+      213: -4999278859622809071
+    second: Medow tilemap_7
+  - first:
+      213: 579475983152841628
+    second: Medow tilemap_8
+  - first:
+      213: -7608435878181300630
+    second: Medow tilemap_9
+  - first:
+      213: 5127301659042303132
+    second: Medow tilemap_10
+  - first:
+      213: -4584682428151694406
+    second: Medow tilemap_11
+  - first:
+      213: 1232524200626795541
+    second: Medow tilemap_12
+  - first:
+      213: -8496704845407351336
+    second: Medow tilemap_13
+  - first:
+      213: -6194048501441845248
+    second: Medow tilemap_14
+  - first:
+      213: 6537818505829748731
+    second: Medow tilemap_15
+  - first:
+      213: 3847063856481614968
+    second: Medow tilemap_16
+  - first:
+      213: 4064331231199775534
+    second: Medow tilemap_17
+  - first:
+      213: 3476481952342520566
+    second: Medow tilemap_18
+>>>>>>> 69158d3c8d57555ebdb752dae00ae75bb0c9dc78
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +94,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: -1
+=======
+    filterMode: 0
+>>>>>>> 69158d3c8d57555ebdb752dae00ae75bb0c9dc78
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +107,20 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 1
+=======
+  spriteMode: 2
+>>>>>>> 69158d3c8d57555ebdb752dae00ae75bb0c9dc78
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   spritePixelsToUnits: 100
+=======
+  spritePixelsToUnits: 72
+>>>>>>> 69158d3c8d57555ebdb752dae00ae75bb0c9dc78
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +138,23 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 1
+=======
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+>>>>>>> 69158d3c8d57555ebdb752dae00ae75bb0c9dc78
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -72,7 +163,410 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites: []
+=======
+    sprites:
+    - serializedVersion: 2
+      name: Medow tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de07764b3d187c440bcacd0cbea39138
+      internalID: 883034808091220091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 288
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b8b0f5d0e0066469a168f491981e1d
+      internalID: 5944024208681917654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc98ea9e11893d4e8310b3d4d61fd49
+      internalID: 5272037272240135236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 288
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4f547f318b06e49848dd369f2d9ce4
+      internalID: -8642980972245235219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c64bd87663fd504d9bc49158bb5d76a
+      internalID: -3588341229487618556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 216
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b733a827457334840953d9366003d431
+      internalID: 7703456566998980189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 216
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d8c7a7c7d6fc54d83e0ee8e1e0dd97
+      internalID: -3564317018709352101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 216
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf9ee1c07c921143a4a862df8cd3dea
+      internalID: -4999278859622809071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4514ed9ea465cd54b95d1039c95b21a5
+      internalID: 579475983152841628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 144
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d4f06504086c04b8c5c92ddf60fdc9
+      internalID: -7608435878181300630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf334f5a79688740bed387795a15ec1
+      internalID: 5127301659042303132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 144
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e7690aa6961ff4c92c53a96ae3b09a
+      internalID: -4584682428151694406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5c8fa18b82f7c4b8d571c7861d25d3
+      internalID: 1232524200626795541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d333d4ca771a5469c06bfc0a28df06
+      internalID: -8496704845407351336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a238429237d1384b9e99a6ed42ee1e6
+      internalID: -6194048501441845248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 72
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8638a5fd34d7545ae3f83395da5500
+      internalID: 6537818505829748731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e07ce5a5992df14892dd96c983cf092
+      internalID: 3847063856481614968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ecc15d3ba04c04aaeef5abda5d0bb1
+      internalID: 4064331231199775534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medow tilemap_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf6723f0f1685d4d8c07d2ea6f85ca7
+      internalID: 3476481952342520566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 69158d3c8d57555ebdb752dae00ae75bb0c9dc78
     outline: []
     physicsShape: []
     bones: []
