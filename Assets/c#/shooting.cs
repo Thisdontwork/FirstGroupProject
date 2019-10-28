@@ -14,7 +14,7 @@ public class shooting : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if (Input.GetButton("Fire1") && timer > shootdelay)
+        if (Input.GetButton("Fire2") && timer > shootdelay)
         {
             timer = 0;
             GameObject bullet = Instantiate(prefab, transform.position, Quaternion.identity);
@@ -25,6 +25,7 @@ public class shooting : MonoBehaviour
                 mousePosition.y - transform.position.y);
             shootDir.Normalize();
             bullet.GetComponent<Rigidbody2D>().velocity = shootDir * bulletSpeed;
+            bullet.transform.up = shootDir;
             Destroy(bullet, bulletlifetime);
         }
     }
