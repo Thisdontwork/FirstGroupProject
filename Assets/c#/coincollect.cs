@@ -16,10 +16,9 @@ public class coincollect : MonoBehaviour
             coinCount++;
             Destroy(collision.gameObject);
         }
-        if (collision.gameObject.tag == "badcoin")
+       if(collision.gameObject.tag == "gold coin")
         {
-            coinCount--;
-            Destroy(collision.gameObject);
+            coinCount++;
         }
        
     }
