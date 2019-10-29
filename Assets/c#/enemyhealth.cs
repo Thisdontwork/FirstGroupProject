@@ -8,7 +8,7 @@ public class enemyhealth : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "bullet")
+        if (collision.gameObject.tag == "Arrow")
         {
             Health--;
 

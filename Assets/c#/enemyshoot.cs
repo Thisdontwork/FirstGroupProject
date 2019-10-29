@@ -26,6 +26,7 @@ public class enemyshoot : MonoBehaviour
                 playerposition.y - transform.position.y);
             shootDir.Normalize();
             enemybullet.GetComponent<Rigidbody2D>().velocity = shootDir * bulletSpeed;
+            enemybullet.transform.up = shootDir;
             Destroy(enemybullet, bulletlifetime);
         }
 
