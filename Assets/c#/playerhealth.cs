@@ -6,37 +6,30 @@ using UnityEngine.UI;
 
 public class playerhealth : MonoBehaviour
 {
-    public int Health = 10;
-    public int lives = 10;
+    public int health = 10;
     public Text healthText;
     public Slider healthSlider;
+  
+
     private void Start()
     {
-        healthText.text = "Health" + Health;
-        healthSlider.maxValue = Health;
-        healthSlider.value = Health;
-        
+        healthText.text = "Health" + health;
+        healthSlider.maxValue = health;
+        healthSlider.value = health;
     }
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Enemy")
-        {
-            Health--;
-            healthText.text = "Health" + Health;
-            healthSlider.value = Health;
-           if(Health < 1)
-            {
-                if (Health < 1)
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                    PlayerPrefs.SetInt("lives", lives - 1);
-                }
-                else
-                {
 
-                }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == ("Enemy"))
+        {
+            health--;
+            healthText.text = "Health: " + health;
+            healthSlider.value = health;
+            if (health < 1)
+            {
+
+                SceneManager.LoadScene("lose");
             }
-           
         }
     }
 }   

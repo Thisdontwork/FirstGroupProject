@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/How To Play.unity
     guid: 5813b096e0c3a5449a18b2f8a4cfd51c
   - enabled: 1
+    path: Assets/Scenes/lose.unity
+    guid: 22991745b65944745866dbba7cffca5a
+  - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: a829e98985051d544a794702ab340d42
   - enabled: 1
