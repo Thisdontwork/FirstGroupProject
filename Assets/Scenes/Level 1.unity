@@ -698,9 +698,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.0015896559}
   serializedVersion: 2
-  m_Radius: 0.1
+  m_Radius: 0.13079257
 --- !u!50 &223239871
 Rigidbody2D:
   serializedVersion: 4
@@ -982,8 +982,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
-  healthText: {fileID: 0}
-  healthSlider: {fileID: 0}
+  healthText: {fileID: 1154873545}
+  healthSlider: {fileID: 924445997}
 --- !u!58 &323727822
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5871,6 +5871,32 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 2454275474547976908, guid: 463b638baca70e442bdb877937d4713a,
+        type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 7869642791404482895, guid: 5341f493f9a5dba448e5a56f5cf57211,
+        type: 3}
+    - target: {fileID: 2454275474547976908, guid: 463b638baca70e442bdb877937d4713a,
+        type: 3}
+      propertyPath: bulletlifetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2454275474547976909, guid: 463b638baca70e442bdb877937d4713a,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2454275474547976910, guid: 463b638baca70e442bdb877937d4713a,
+        type: 3}
+      propertyPath: health
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2454275474547976905, guid: 463b638baca70e442bdb877937d4713a,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2454275474547976907, guid: 463b638baca70e442bdb877937d4713a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5926,36 +5952,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2454275474547976905, guid: 463b638baca70e442bdb877937d4713a,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2454275474547976908, guid: 463b638baca70e442bdb877937d4713a,
-        type: 3}
-      propertyPath: prefab
-      value: 
-      objectReference: {fileID: 7869642791404482895, guid: 5341f493f9a5dba448e5a56f5cf57211,
-        type: 3}
-    - target: {fileID: 2454275474547976908, guid: 463b638baca70e442bdb877937d4713a,
-        type: 3}
-      propertyPath: bulletlifetime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2454275474547976909, guid: 463b638baca70e442bdb877937d4713a,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 2454275474496114225, guid: 463b638baca70e442bdb877937d4713a,
         type: 3}
       propertyPath: orthographic size
       value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2454275474547976910, guid: 463b638baca70e442bdb877937d4713a,
-        type: 3}
-      propertyPath: health
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2454275474547976903, guid: 463b638baca70e442bdb877937d4713a, type: 3}
