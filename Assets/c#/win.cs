@@ -7,9 +7,9 @@ public class win : MonoBehaviour
 {
    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "win")
+        if(collision.gameObject.tag == "next level")
         {
-            SceneManager.LoadScene("win");
+            SceneManager.LoadScene("level 1");
         }
     }
 }

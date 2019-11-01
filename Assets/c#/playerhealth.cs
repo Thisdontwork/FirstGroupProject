@@ -27,7 +27,6 @@ public class playerhealth : MonoBehaviour
             healthSlider.value = health;
             if (health < 1)
             {
-
                 SceneManager.LoadScene("lose");
             }
         }
