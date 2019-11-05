@@ -6,10 +6,18 @@ using UnityEngine.SceneManagement;
 public class win : MonoBehaviour
 {
    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == "next level")
+   {
+        if(collision.gameObject.tag == "level 1p")
         {
-            SceneManager.LoadScene("level 1");
+            SceneManager.LoadScene("Level2");
         }
-    }
+        if(collision.gameObject.tag == "Level 2p")
+        {
+            SceneManager.LoadScene("shop");
+        }
+        if(collision.gameObject.tag == "Level 3p")
+        {
+            SceneManager.LoadScene("Level4");
+        }
+   }
 }

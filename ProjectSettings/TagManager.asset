@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Arrow
-  - next level
+  - level 1p
   layers:
   - Default
   - TransparentFX
