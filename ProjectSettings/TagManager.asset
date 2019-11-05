@@ -7,6 +7,9 @@ TagManager:
   - Enemy
   - Arrow
   - level 1p
+  - Level 2p
+  - Level 3p
+  - Level 4p
   layers:
   - Default
   - TransparentFX
