@@ -5,6 +5,7 @@ using UnityEngine;
 public class enemyhealth : MonoBehaviour
 {
     public int Health = 10;
+    public GameObject Prefab;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,6 +16,7 @@ public class enemyhealth : MonoBehaviour
             if(Health < 1)
             {
                 Destroy(gameObject);
+                GameObject Coin = Instantiate(Prefab, transform.position, Quaternion.identity);
             }
         }
     }
