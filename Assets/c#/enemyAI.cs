@@ -16,6 +16,7 @@ public class enemyAI : MonoBehaviour
     void Start()
     {
         startPosition = transform.position;
+        
     }
 
     // Update is called once per frame

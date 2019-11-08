@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class timer : MonoBehaviour
 {
-    float timeleft = 15.0f;
+    float timeleft = 60.0f;
     public GameObject prefab;
 
     private void Start()

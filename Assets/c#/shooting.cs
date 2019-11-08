@@ -10,7 +10,7 @@ public class shooting : MonoBehaviour
     public float shootdelay = 1.0f;
     float timer = 0;
 
-    // Update is called once per frame
+  
     void Update()
     {
         timer += Time.deltaTime;
