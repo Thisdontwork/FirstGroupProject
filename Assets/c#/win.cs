@@ -13,7 +13,7 @@ public class win : MonoBehaviour
         }
         if(collision.gameObject.tag == "Level 2p")
         {
-            SceneManager.LoadScene("Shop");
+            SceneManager.LoadScene("level 3");
         }
         if(collision.gameObject.tag == "Level 3p")
         {
@@ -21,7 +21,15 @@ public class win : MonoBehaviour
         }
         if(collision.gameObject.tag == "Level 4p")
         {
-            SceneManager.LoadScene("shop");
+            SceneManager.LoadScene("Level5");
+        }
+        if (collision.gameObject.tag == "Level 5p")
+        {
+            SceneManager.LoadScene("Level6");
+        }
+        if (collision.gameObject.tag == "Level ^p")
+        {
+            SceneManager.LoadScene("Level 7");
         }
    }
 }
