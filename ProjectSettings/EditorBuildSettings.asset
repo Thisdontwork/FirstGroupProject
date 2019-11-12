@@ -27,6 +27,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Level4.unity
     guid: db59bc7b96107e34582ab7212d7e1a7c
   - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: c345b9f08789ec2479de9ed26701c440
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: 6259d2ba0002eee439be3d7870588746
+  - enabled: 1
+    path: Assets/Scenes/Level7Final.unity
+    guid: 1b8935b569472604991756c989781da8
+  - enabled: 1
+    path: Assets/Scenes/PrincesRoom.unity
+    guid: bd41017afa191a4418a104a8d20106e0
+  - enabled: 1
+    path: Assets/Scenes/EnemyRoom.unity
+    guid: 9a84fba75d058c74d98914e21bed6e5b
+  - enabled: 1
+    path: Assets/Scenes/ThereIsNoEnd.unity
+    guid: 4bd0ddee986764f448fc1dadb528151b
+  - enabled: 1
     path: Assets/Scenes/Shop.unity
     guid: c30ba74983dd5f84e8c92a01aa3ad253
   - enabled: 1

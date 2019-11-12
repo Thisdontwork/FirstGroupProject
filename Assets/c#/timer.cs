@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class timer : MonoBehaviour
 {
-    float timeleft = 60.0f;
+    float timeleft = 4.0f;
     public GameObject prefab;
 
     private void Start()
@@ -19,7 +19,7 @@ public class timer : MonoBehaviour
         timeleft -= Time.deltaTime;
         if ( timeleft < 0)
         {
-            SceneManager.LoadScene("lose");
+            SceneManager.LoadScene("ThereIsNoEnd");
         }
     }
 }
