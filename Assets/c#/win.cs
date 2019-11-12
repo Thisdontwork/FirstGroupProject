@@ -13,7 +13,7 @@ public class win : MonoBehaviour
         }
         if(collision.gameObject.tag == "Level 2p")
         {
-            SceneManager.LoadScene("level 3");
+            SceneManager.LoadScene("level3");
         }
         if(collision.gameObject.tag == "Level 3p")
         {
@@ -29,7 +29,7 @@ public class win : MonoBehaviour
         }
         if (collision.gameObject.tag == "Level ^p")
         {
-            SceneManager.LoadScene("Level 7");
+            SceneManager.LoadScene("Level 7Final");
         }
    }
 }
