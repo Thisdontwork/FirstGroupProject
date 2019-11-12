@@ -140,6 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 1
+  Prefab: {fileID: 0}
 --- !u!114 &1115213555371362204
 MonoBehaviour:
   m_ObjectHideFlags: 0
