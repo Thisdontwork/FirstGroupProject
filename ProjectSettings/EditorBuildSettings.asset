@@ -44,7 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThereIsNoEnd.unity
     guid: 4bd0ddee986764f448fc1dadb528151b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Shop.unity
     guid: c30ba74983dd5f84e8c92a01aa3ad253
   - enabled: 1
