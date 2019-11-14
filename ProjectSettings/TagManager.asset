@@ -11,6 +11,9 @@ TagManager:
   - Level 3p
   - Level 4p
   - coin
+  - Level 5p
+  - Level 6p
+  - Level 7p
   layers:
   - Default
   - TransparentFX
