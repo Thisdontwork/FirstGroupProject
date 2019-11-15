@@ -34138,7 +34138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41d92c299a29b874ab9f83727459f0ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 6
   healthText: {fileID: 458352827}
   healthSlider: {fileID: 1399992870}
 --- !u!50 &2131053441
