@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 107081499}
   - component: {fileID: 107081501}
   - component: {fileID: 107081500}
+  - component: {fileID: 107081502}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -235,6 +236,27 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!68 &107081502
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107081498}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.5, y: 0}
+  - {x: -0.50292313, y: -0.6401714}
+  - {x: 0.4308883, y: -0.64183974}
+  - {x: 0.43984902, y: -0.00555712}
+  - {x: -0.5041046, y: -0.0014615357}
 --- !u!1001 &248989044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -355,7 +377,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
