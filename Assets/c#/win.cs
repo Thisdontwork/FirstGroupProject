@@ -29,11 +29,15 @@ public class win : MonoBehaviour
         }
         if (collision.gameObject.tag == "Level 6p")
         {
-            SceneManager.LoadScene("Level 7Final");
+            SceneManager.LoadScene("Level7Final");
         }
         if (collision.gameObject.tag == "Level 7p")
         {
             SceneManager.LoadScene("PrincesRoom");
+        }
+        if (collision.gameObject.tag == "princes")
+        {
+            SceneManager.LoadScene("EnemyRoom");
         }
    }
 }
