@@ -202,11 +202,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7de8816dc0024140a91de36afab6da2, type: 3}
 --- !u!1 &73107058
@@ -455,6 +470,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
@@ -1305,11 +1330,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7de8816dc0024140a91de36afab6da2, type: 3}
 --- !u!1001 &858583566
@@ -1483,6 +1523,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
@@ -1720,11 +1770,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7de8816dc0024140a91de36afab6da2, type: 3}
 --- !u!1 &994296183
@@ -1900,6 +1965,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
@@ -2078,11 +2153,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7de8816dc0024140a91de36afab6da2, type: 3}
 --- !u!1 &1120323177
@@ -2527,6 +2617,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
@@ -3116,6 +3216,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
@@ -3620,11 +3730,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1120323192}
+    - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7de8816dc0024140a91de36afab6da2, type: 3}
 --- !u!1001 &1805816841

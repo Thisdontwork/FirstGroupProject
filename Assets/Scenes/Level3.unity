@@ -202,6 +202,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1696571596}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
@@ -15278,6 +15288,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1696571596}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
@@ -15534,22 +15554,22 @@ PrefabInstance:
     - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: paceDirection.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: chaseSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
-        type: 3}
-      propertyPath: paceSpeed
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
+      propertyPath: paceSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
       propertyPath: paceDistance
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
@@ -15561,6 +15581,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1696571596}
+    - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7de8816dc0024140a91de36afab6da2, type: 3}
 --- !u!1 &1696571581
@@ -15906,6 +15931,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1696571596}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
@@ -16070,11 +16105,26 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1696571596}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1115213555371362202, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: chaseTriggerDistance
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1696571596}
+    - target: {fileID: 1115213555371362204, guid: e7de8816dc0024140a91de36afab6da2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7de8816dc0024140a91de36afab6da2, type: 3}
 --- !u!1 &2041386436
