@@ -15578,14 +15578,11 @@ GameObject:
   - component: {fileID: 1696571592}
   - component: {fileID: 1696571591}
   - component: {fileID: 1696571590}
-  - component: {fileID: 1696571589}
   - component: {fileID: 1696571588}
   - component: {fileID: 1696571587}
   - component: {fileID: 1696571586}
   - component: {fileID: 1696571585}
   - component: {fileID: 1696571584}
-  - component: {fileID: 1696571583}
-  - component: {fileID: 1696571582}
   m_Layer: 9
   m_Name: 'Player '
   m_TagString: Player
@@ -15593,34 +15590,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1696571582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696571581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2dac03ad5d012e949a7164fae62533ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  meleetime: 1
-  meleedelay: 1
---- !u!114 &1696571583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696571581}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b65bd07c5bb3534aace9579b2979db5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
 --- !u!114 &1696571584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15711,18 +15680,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a140408ab8cf16840aaed8cccbd289d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1696571589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696571581}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6670c4b0ff740ae4d9d4fc55068ba03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1696571590
