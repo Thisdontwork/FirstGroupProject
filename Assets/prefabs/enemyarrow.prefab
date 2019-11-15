@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4913872712248248359}
   - component: {fileID: 2458667201579537476}
   - component: {fileID: 6619670307096329150}
-  - component: {fileID: 3882181806538525252}
+  - component: {fileID: 8327783137407158735}
   m_Layer: 10
   m_Name: enemyarrow
   m_TagString: Enemy
@@ -94,7 +94,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0050582886, y: 0.01728928}
@@ -131,7 +131,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &3882181806538525252
+--- !u!114 &8327783137407158735
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

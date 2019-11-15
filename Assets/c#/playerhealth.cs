@@ -20,7 +20,20 @@ public class playerhealth : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == ("Enemy"))
+        if (collision.gameObject.tag == "Enemy")
+        {
+            health--;
+            healthText.text = "Health: " + health;
+            healthSlider.value = health;
+            if (health < 1)
+            {
+                SceneManager.LoadScene("lose");
+            }
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
         {
             health--;
             healthText.text = "Health: " + health;
